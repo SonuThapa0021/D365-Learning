@@ -1,0 +1,31 @@
+.nav_Div {
+    width: 250px;
+    min-height: 100vh;
+    border-right: 1px solid #ccc;
+    padding: 20px;
+}
+
+.PeraGraph {
+    font-size: 16px;
+}
+
+.Heading {
+    font-size: 30px;
+    padding: 5px 0px 5px 0;
+}
+.Headingh2 {
+    font-size: 30px;
+    padding: 5px 0px 5px 0;
+}
+.Headingh3 {
+    font-size: 20px;
+    padding: 5px 0px 5px 0;
+}
+
+.Code{
+    background-color: rgba(128, 128, 128, 0.338);
+    padding: 10px;
+    width: fit-content;
+    border: 1px;
+    border-radius: 8px;
+}

@@ -1,0 +1,43 @@
+    /* mimic Heroicons outline style */
+    .nav-icon {
+      width: 1.5rem;
+      height: 1.5rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.25rem;
+      color: #9ca3af; /* gray-400 */
+      transition: color 0.15s;
+    }
+    .nav-item:hover .nav-icon {
+      color: #f9fafb; /* gray-50 */
+    }
+    .nav-item.active .nav-icon {
+      color: #f9fafb;
+    }
+    /* active link style */
+    .nav-item.active {
+      background-color: #374151; /* gray-700 */
+      color: #f9fafb;
+    }
+    .nav-item.active .nav-text {
+      color: #f9fafb;
+    }
+    .nav-item {
+      transition: background-color 0.15s, color 0.15s;
+    }
+    /* custom scroll for teams list */
+    .teams-scroll {
+      max-height: 160px;
+      overflow-y: auto;
+    }
+    .teams-scroll::-webkit-scrollbar {
+      width: 4px;
+    }
+    .teams-scroll::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    .teams-scroll::-webkit-scrollbar-thumb {
+      background: #4b5563;
+      border-radius: 8px;
+    }

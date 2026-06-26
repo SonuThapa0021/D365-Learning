@@ -1,0 +1,1151 @@
+please teach me all these topics
+
+
+
+I agree. That roadmap is a good beginner outline, but it is nowhere near a true PCF Mastery (0 → Architect → Enterprise Expert) curriculum.
+
+If your goal is:
+
+
+
+
+
+Build Field Controls
+
+
+
+Build Dataset Controls
+
+
+
+Build React PCF
+
+
+
+Build Virtual Controls
+
+
+
+Work with Dataverse APIs
+
+
+
+Build Enterprise-grade controls
+
+
+
+Pass PCF interviews
+
+
+
+Become the "PCF guy" in a Dynamics 365 team
+
+Then many critical topics are missing.
+
+Complete PCF Mastery Roadmap (Beginner → Advanced → Professional → Architect)
+
+PHASE 0 — Foundation Skills
+
+Before PCF
+
+
+
+HTML
+
+
+
+Semantic HTML
+
+
+
+Forms
+
+
+
+Accessibility
+
+
+
+ARIA
+
+
+
+Input Types
+
+
+
+Validation
+
+CSS
+
+
+
+Box Model
+
+
+
+Flexbox
+
+
+
+Grid
+
+
+
+Responsive Design
+
+
+
+CSS Variables
+
+
+
+Animations
+
+
+
+BEM
+
+JavaScript
+
+Core
+
+
+
+Variables
+
+
+
+Scope
+
+
+
+Hoisting
+
+
+
+Closures
+
+
+
+Prototype
+
+
+
+this Keyword
+
+ES6+
+
+
+
+Arrow Functions
+
+
+
+Destructuring
+
+
+
+Spread
+
+
+
+Rest
+
+
+
+Modules
+
+
+
+Classes
+
+Async
+
+
+
+Promise
+
+
+
+Async Await
+
+
+
+Fetch API
+
+Browser APIs
+
+
+
+DOM
+
+
+
+Events
+
+
+
+Local Storage
+
+
+
+Session Storage
+
+PHASE 1 — TypeScript Mastery
+
+PCF is TypeScript First.
+
+Module 1.1 Types
+
+
+
+string
+
+number
+
+boolean
+
+any
+
+unknown
+
+never
+
+
+
+Module 1.2 Interfaces
+
+
+
+interface Customer {
+
+   name:string;
+
+}
+
+
+
+Module 1.3 Type Alias
+
+
+
+type User = {
+
+   name:string;
+
+}
+
+
+
+Module 1.4 Enums
+
+
+
+enum Status
+
+{
+
+ Active,
+
+ Inactive
+
+}
+
+
+
+Module 1.5 Generics
+
+
+
+Array<Customer>
+
+
+
+
+
+Module 1.6 Advanced Types
+
+
+
+Partial<T>
+
+Pick<T>
+
+Omit<T>
+
+Record<T>
+
+
+
+Module 1.7 Type Narrowing
+
+
+
+typeof
+
+instanceof
+
+
+
+Module 1.8 Classes
+
+
+
+class Customer {}
+
+
+
+
+
+Module 1.9 Modules
+
+
+
+export
+
+import
+
+
+
+PHASE 2 — React Mastery
+
+Most modern PCF projects use React.
+
+Module 2.1 React Fundamentals
+
+Components
+
+
+
+function App(){}
+
+
+
+
+
+JSX
+
+Props
+
+State
+
+Module 2.2 Hooks
+
+useState
+
+useEffect
+
+useRef
+
+useMemo
+
+useCallback
+
+useContext
+
+Custom Hooks
+
+Module 2.3 Component Design
+
+Container Components
+
+Presentational Components
+
+Reusable Components
+
+Module 2.4 React Performance
+
+Memo
+
+React.memo
+
+Virtual DOM
+
+Re-render Optimization
+
+Module 2.5 React Routing
+
+
+
+BrowserRouter
+
+Routes
+
+Route
+
+
+
+(Not used directly inside PCF but useful)
+
+PHASE 3 — PCF Fundamentals
+
+Module 3.1 What is PCF
+
+History
+
+Why Microsoft Created PCF
+
+PCF vs Web Resources
+
+PCF vs Custom Pages
+
+PCF vs Canvas Components
+
+Module 3.2 PCF Architecture
+
+Dataverse
+
+   ↓
+
+Context
+
+   ↓
+
+PCF
+
+   ↓
+
+React
+
+
+
+Module 3.3 Types of PCF
+
+Field Controls
+
+Single Record
+
+Single Column
+
+
+
+Dataset Controls
+
+Multiple Records
+
+Subgrid
+
+
+
+Virtual Controls
+
+ReactControl
+
+
+
+
+
+PHASE 4 — Development Environment
+
+Power Platform CLI
+
+
+
+pac install latest
+
+
+
+
+
+Create Project
+
+
+
+pac pcf init
+
+
+
+
+
+Build
+
+
+
+npm run build
+
+
+
+
+
+Test Harness
+
+
+
+npm start
+
+
+
+
+
+Debugging
+
+VS Code
+
+Chrome DevTools
+
+Source Maps
+
+PHASE 5 — Project Structure Deep Dive
+
+package.json
+
+Scripts
+
+Dependencies
+
+DevDependencies
+
+tsconfig.json
+
+Compiler Settings
+
+ControlManifest.Input.xml
+
+MOST IMPORTANT FILE
+
+index.ts
+
+Main Entry
+
+Generated Manifest Types
+
+generated/
+
+
+
+
+
+CSS Resources
+
+Localization Resources
+
+resx
+
+
+
+
+
+PHASE 6 — PCF Lifecycle (Deep Dive)
+
+This alone should take multiple days.
+
+init()
+
+When it runs
+
+What to initialize
+
+Caching
+
+Event registration
+
+updateView()
+
+Most important method
+
+Triggers
+
+Performance impact
+
+Avoiding unnecessary renders
+
+getOutputs()
+
+Returning values
+
+Output Mapping
+
+destroy()
+
+Cleanup
+
+Remove listeners
+
+Dispose resources
+
+PHASE 7 — Manifest Mastery
+
+Most developers know only 20%.
+
+Control Node
+
+
+
+<control>
+
+
+
+
+
+Property Node
+
+
+
+<property>
+
+
+
+
+
+Bound Properties
+
+
+
+usage="bound"
+
+
+
+
+
+Input Properties
+
+
+
+usage="input"
+
+
+
+
+
+Output Properties
+
+
+
+usage="output"
+
+
+
+
+
+Data-set Nodes
+
+
+
+<data-set>
+
+
+
+
+
+Resources
+
+
+
+<resources>
+
+
+
+
+
+Feature Usage
+
+
+
+<feature-usage>
+
+
+
+
+
+External Service Usage
+
+
+
+<external-service-usage>
+
+
+
+
+
+PHASE 8 — Standard Controls
+
+Projects:
+
+
+
+Text Control
+
+Character Counter
+
+Uppercase Converter
+
+Rich Text Display
+
+Progress Bar
+
+Star Rating
+
+Currency Formatter
+
+QR Code Generator
+
+Signature Pad
+
+Image Upload Control
+
+PHASE 9 — Context Object Deep Dive
+
+Most developers don't understand Context.
+
+Parameters
+
+
+
+context.parameters
+
+
+
+
+
+Mode
+
+
+
+context.mode
+
+
+
+
+
+Client
+
+
+
+context.client
+
+
+
+
+
+User Settings
+
+
+
+context.userSettings
+
+
+
+
+
+Formatting
+
+
+
+context.formatting
+
+
+
+
+
+Navigation
+
+
+
+context.navigation
+
+
+
+
+
+Device
+
+
+
+context.device
+
+
+
+
+
+WebAPI
+
+
+
+context.webAPI
+
+
+
+
+
+PHASE 10 — Data Flow Architecture
+
+Critical Topic
+
+
+
+Dataverse → PCF
+
+PCF → React
+
+React → PCF
+
+PCF → Dataverse
+
+notifyOutputChanged()
+
+updateView()
+
+State Synchronization
+
+Two-way Binding
+
+PHASE 11 — Dataverse Web API
+
+Real-world development starts here.
+
+CRUD Operations
+
+
+
+createRecord()
+
+retrieveRecord()
+
+updateRecord()
+
+deleteRecord()
+
+
+
+Retrieve Multiple
+
+
+
+retrieveMultipleRecords()
+
+
+
+
+
+OData Queries
+
+$select
+
+$filter
+
+$expand
+
+
+
+FetchXML
+
+Batch Requests
+
+Error Handling
+
+Pagination
+
+PHASE 12 — Fluent UI Mastery
+
+Buttons
+
+Dropdowns
+
+ComboBox
+
+Dialogs
+
+Panels
+
+CommandBar
+
+DetailsList
+
+Pivot
+
+DatePicker
+
+PeoplePicker
+
+TreeView
+
+PHASE 13 — Dataset PCF Mastery
+
+This is where most developers struggle.
+
+Dataset Architecture
+
+Dataset API
+
+
+
+context.parameters.dataset
+
+
+
+
+
+Records
+
+Paging
+
+Filtering
+
+Sorting
+
+Selection
+
+Editable Grids
+
+Virtualization
+
+Custom Grid Development
+
+PHASE 14 — React PCF Controls
+
+ReactControl
+
+
+
+implements ReactControl
+
+
+
+
+
+React Rendering
+
+Props Design
+
+State Management
+
+Re-render Optimization
+
+Large Component Architecture
+
+PHASE 15 — Virtual Controls
+
+Newest PCF Architecture.
+
+StandardControl vs ReactControl
+
+Rendering Flow
+
+Performance
+
+Memory Usage
+
+Best Practices
+
+Migration Strategy
+
+PHASE 16 — Advanced PCF Patterns
+
+Service Layer Pattern
+
+Repository Pattern
+
+Factory Pattern
+
+Dependency Injection
+
+State Management Pattern
+
+Event Bus Pattern
+
+Custom Hooks Architecture
+
+PHASE 17 — Security
+
+Dataverse Security
+
+Field Security
+
+Record Security
+
+User Privileges
+
+Impersonation
+
+Web API Permissions
+
+PHASE 18 — Performance Engineering
+
+Render Optimization
+
+Memoization
+
+Lazy Loading
+
+Code Splitting
+
+Bundle Optimization
+
+Network Optimization
+
+Dataset Optimization
+
+PHASE 19 — Accessibility (Often Ignored)
+
+WCAG
+
+Keyboard Navigation
+
+Screen Readers
+
+ARIA
+
+High Contrast Mode
+
+PHASE 20 — Localization
+
+RESX Files
+
+Multi Language Labels
+
+RTL Support
+
+Regional Formatting
+
+PHASE 21 — Testing
+
+Jest
+
+React Testing Library
+
+Unit Testing
+
+Mocking Context
+
+Integration Testing
+
+PHASE 22 — ALM & Deployment
+
+Solutions
+
+Managed
+
+Unmanaged
+
+Versioning
+
+Patches
+
+Upgrades
+
+PHASE 23 — Azure DevOps for PCF
+
+Git
+
+Branching
+
+Pull Requests
+
+Build Pipelines
+
+Release Pipelines
+
+Automated Deployments
+
+PHASE 24 — Enterprise Projects
+
+Customer Card
+
+Address Finder
+
+Kanban Board
+
+WhatsApp Control
+
+Timeline Control
+
+AI Copilot Panel
+
+Document Viewer
+
+Outlook Integration
+
+Teams Integration
+
+Advanced Data Grid
+
+PHASE 25 — PCF Architect Level
+
+Solution Architecture
+
+Reusable Component Library
+
+Internal NPM Packages
+
+Shared UI Framework
+
+Performance Reviews
+
+Code Reviews
+
+Design Reviews
+
+Enterprise Standards
+
+Multi-Team Governance
+
+For someone working in Dynamics 365 CE and React, I would actually teach PCF in this order:
+
+
+
+
+
+TypeScript (100% mastery)
+
+
+
+React Fundamentals
+
+
+
+React Advanced Hooks
+
+
+
+PCF Basics
+
+
+
+PCF Lifecycle
+
+
+
+Manifest Deep Dive
+
+
+
+Context Object
+
+
+
+Field Controls
+
+
+
+React PCF
+
+
+
+Dataverse Web API
+
+
+
+Fluent UI
+
+
+
+Dataset Controls
+
+
+
+Virtual Controls
+
+
+
+Testing
+
+
+
+ALM & Azure DevOps
+
+
+
+Enterprise Projects
+
+This sequence matches how real Dynamics 365 developers build PCF controls in production.
