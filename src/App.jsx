@@ -6,6 +6,7 @@ import Home from "./Web Pages/Home Page";
 import Events_D365 from "./Web Pages/Event";
 import PCF from "./Web Pages/PCF/PCF";
 import RoadMap from "./Web Pages/PCF/RoadMap";
+import SSIS from "./Web Pages/SSIS";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/Events_D365" element={<Events_D365 />} />
             <Route path="/PCF" element={<PCF />} />
             <Route path="RoadMap" element={<RoadMap />} />
+            <Route path="SSIS" element={<SSIS />} />
           </Routes>
         </div>
 
