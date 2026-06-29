@@ -25,6 +25,12 @@ function Left_Nav() {
                     <span className="nav-icon"><FontAwesomeIcon icon="fa-solid fa-code" /></span>
                     <span>PCF</span>
                 </Link>
+
+                 {/* SSIS */}
+                <Link to="/PCF" className="nav-item flex items-center space-x-3 px-3 py-2 rounded-lg text-sm font-medium text-gray-400 hover:text-white hover:bg-gray-800 transition">
+                    <span className="nav-icon"><FontAwesomeIcon icon="fa-solid fa-code" /></span>
+                    <span>PCF</span>
+                </Link>
             </nav>
 
         </aside>
